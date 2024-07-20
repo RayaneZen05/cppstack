@@ -26,7 +26,7 @@ La classe `stack` utilise un tableau dynamique pour stocker les éléments. Elle
 ### Utilisation
 
 ```cpp
-#include "stack.h" // Inclure le fichier d'en-tête
+#include "stack.hpp" // Inclure le fichier d'en-tête
 
 int main() {
     // Créer une pile d'entiers de taille 10
@@ -49,13 +49,6 @@ int main() {
 }
 ```
 
-### Remarques
-
-- La classe utilise `realloc()` pour redimensionner la pile, ce qui peut être coûteux en termes de performances.
-- Il est important d'appeler la méthode `free()` pour libérer la mémoire allouée lorsque la pile n'est plus utilisée.
-
 ### Améliorations possibles
-
+- Corrections pour que tous les tests passent.
 - Implémenter un itérateur pour parcourir les éléments de la pile.
-- Ajouter des méthodes pour vérifier si la pile est vide ou pleine.
-- Utiliser une autre structure de données, comme une liste chaînée, pour une meilleure efficacité lors du redimensionnement. 
