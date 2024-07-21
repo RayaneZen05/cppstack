@@ -51,4 +51,3 @@ int main() {
 
 ### Améliorations possibles
 - Corrections pour que tous les tests passent.
-- Implémenter un itérateur pour parcourir les éléments de la pile.
